@@ -7,4 +7,5 @@ Rails.application.routes.draw do
   get "/dogs" => "dogs#index"
   post "/walks" => "walks#create"
   get "/walks" => "walks#index"
+  post "/sessions" => "sessions#create"
 end
