@@ -1,0 +1,2 @@
+class BestFriend < ApplicationRecord
+end
