@@ -19,4 +19,12 @@ class UsersController < ApplicationController
     users = User.all.order(:id)
     render json: users
   end
+
+  def destroy
+    user_id = params["id"]
+    user = User.find_by(id: params["id"])
+    user.destroy
+
+    render json: { message: "DELETED" }
+  end
 end
