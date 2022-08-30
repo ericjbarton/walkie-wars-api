@@ -9,4 +9,4 @@
 
 # dogs = Dog.create(name: "Brownie", photo_url: "url")
 
-walks = Walk.create(start: "12", timeOut: 12, midpoints: "1, 2, 3", endpoint: "4", timeIn: 12.5, distance: 2, bestFriendsId: 1)
+# walks = Walk.create(start: "12", timeOut: 12, midpoints: "1, 2, 3", endpoint: "4", timeIn: 12.5, distance: 2, bestFriendsId: 1)
