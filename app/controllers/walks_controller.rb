@@ -22,7 +22,7 @@ class WalksController < ApplicationController
     render json: walk
   end
 
-  def update
+  def updaterails
     walk = Walk.find_by(id: params[:id])
     walk.start = params[:start] || walk.title
     walk.end = params[:end] || walk.end
